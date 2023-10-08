@@ -2,10 +2,11 @@
 
 <head>
     <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/calculadora.css">
 </head>
 
 <body>
-    <h1>Calculadora</h1>
+    <h1>Calculadora Dockerizada</h1>
     <form method="post" action="calculadora.php">
         <input type="number" value=0 name="num1">
         <br><br>
@@ -26,6 +27,8 @@
         <br><br>
         <input type="submit" value="Enviar">
     </form>
+    <br>
+    
 </body>
 
 </html>
