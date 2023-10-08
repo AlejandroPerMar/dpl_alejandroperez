@@ -8,8 +8,10 @@
 <body>
     <h1>Calculadora Dockerizada</h1>
     <form method="post" action="calculadora.php">
+        <span>Valor 1:</span>
         <input type="number" value=0 name="num1">
         <br><br>
+        <span>Valor 2:</span>
         <input type="number" value=0 name="num2">
         <br><br>
         <select name="signo">
@@ -28,7 +30,7 @@
         <input type="submit" value="Enviar">
     </form>
     <br>
-    
+
 </body>
 
 </html>
