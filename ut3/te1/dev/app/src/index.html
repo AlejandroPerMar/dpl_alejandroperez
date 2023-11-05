@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Images</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <h1>Nginx + ngx_small_light</h1>
+    <form id="data" action="" method="post" class="form">
+        <div class="option">
+            <label for="size">Size: </label>
+            <input type="text" id="size" name="size" value="0" />
+        </div>
+        <div class="option">
+            <label for="border-width">Border Width: </label>
+            <input type="text" id="border-width" name="border-width" value="0" />
+        </div>
+        <div class="option">
+            <label for="border-color:">Border Color: </label>
+            <input type="color" id="border-color" name="border-color" value="0" />
+        </div>
+        <div class="option">
+            <label for="image-focus">Sharpen Image: </label>
+            <input type="text" id="image-focus" name="image-focus" value="0" />
+        </div>
+        <div class="option">
+            <label for="image-blur">Blur Image: </label>
+            <input type="text" id="image-blur" name="image-blur" value="0" />
+        </div>
+        <div class="green-button">
+            <input class="generate" type="submit" value="Generate">
+        </div>
+    </form>
+    <ul id="imageList">
+    </ul>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
