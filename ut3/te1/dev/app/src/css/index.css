@@ -33,32 +33,25 @@ input {
     width: 400px;
 }
 
-.green-button {
-    margin-top: -55px;
-    margin-left: 450px;
-}
-
 .generate {
-    font-size: 18px;
-    font-weight: bolder;
-    padding: 10px 15px;
-    background-color: #1a73e9;
-    color: white;
-    border: none;
-    border-radius: .4em;
-    margin-bottom: 15px;
-    width: auto;
-    height: 40px;
-    transition: transform 0.1s;
+  min-width: 130px;
+  height: 40px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border-radius: 5px;
+  border: 2px solid #212529;
+  background: #212529;
 }
 
 .generate:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-}
-
-.generate:active {
-    background-color: #1265d1;
+  background: #fff;
+  color: #212529
 }
 
 li {

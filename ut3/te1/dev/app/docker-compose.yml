@@ -3,9 +3,11 @@ version: "3.3"
 services:
   web:
     build: .
-    image: nginx
+    container_name: docker_ngx_small_light
     volumes:
-      - ./images:/etc/nginx/images
+      - ./src:/etc/nginx/html 
       - ./default.conf:/etc/nginx/conf.d/default.conf
     ports:
-      - 90:80
+      - 8080:80
+      
+      
