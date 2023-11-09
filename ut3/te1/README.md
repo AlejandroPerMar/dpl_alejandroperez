@@ -41,12 +41,6 @@ load_module modules/ngx_http_small_light_module.so;
 
 ## Paso 3: Crear Virtual Host
 
-### 3.1 Crear un archivo de configuración para el virtual host:
-
-```bash
-sudo nano /etc/nginx/sites-available/images.aluXXXX.arkania.es
-```
-
 ### 3.2 Configuración del Virtual Host:
 
 ```nginx
